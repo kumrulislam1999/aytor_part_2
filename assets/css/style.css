@@ -1,0 +1,579 @@
+ /* --=================== Start All Section Common CSS Style Here===================-- */
+ :root {
+     --h1_color: #1d1d1d;
+     --text-color: #11161E;
+     --primary_color_orange_light: #FF6F61;
+     --primary_color_orange_dark: #FF5645;
+     --primary_color_dark: #151A32;
+     --white_color: #FFFFFF;
+     --bg_color_light: #F1F1F1;
+     --bg_color_dark: #F1F3F4;
+     --black_color: #000000;
+     --p_color: #444444;
+     --primary_font: 'Josefin Sans', sans-serif;
+     --p_font: 'Poppins', sans-serif;
+ }
+
+ .section_content h1 {
+     font-size: 64px;
+     font-weight: 700;
+     line-height: 74px;
+ }
+
+ .section_content h2 {
+     font-size: 48px;
+     font-weight: 700;
+     line-height: 58px;
+ }
+
+ .section_content h3 {
+     color: var(--text-color);
+     font-size: 36px;
+     line-height: 46px;
+     font-weight: 700;
+ }
+
+ .section_content h4 {
+     color: var(--white_color);
+     font-size: 24px;
+     line-height: 34px;
+     font-weight: 700;
+ }
+
+ .section_content h5 {
+     color: var(--text-color);
+     font-size: 20px;
+     font-weight: 600;
+     line-height: 30px;
+ }
+
+ .section_content h6 {
+     color: var(--text-color);
+     font-size: 18px;
+     line-height: 28px;
+     font-weight: 600;
+
+ }
+
+ .section_content p {
+     color: var(--p_color);
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 28px;
+
+ }
+
+ .section_content .p_sm {
+     color: var(--p_color);
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 26px;
+ }
+
+ .section_content .sec_btn_sm {
+     color: var(--text-color);
+     font-size: 16px;
+     font-weight: 600;
+     line-height: 28px;
+ }
+
+ .section_content .sec_btn_lg {
+     color: var(--white_color);
+     display: inline-flex;
+     align-items: center;
+     gap: 10px;
+     font-size: 18px;
+     font-weight: 600;
+     line-height: 30px;
+     background-color: var(--primary_color_orange_light);
+ }
+
+ .section_content p {
+     color;
+     font-size: 16px;
+     line-height: 28px;
+     font-weight: 400;
+ }
+
+ /* --=================== End All Section Common CSS Style Here===================-- */
+
+
+
+ /* -- =================== Start Header Section CSS Style Here =================== -- */
+ #header {
+
+     background-color: var(--white_color);
+ }
+
+ #header .top_bar {
+     background-color: var(--primary_color_dark);
+     color: var(--white_color);
+     padding: 11px 0;
+ }
+
+ #header .top_bar .top_bar_left p i {
+     margin-right: 3px;
+     font-size: 20px;
+     width: 17px;
+     height: 17px;
+     color: var(--primary_color_orange_light);
+ }
+
+ #header .top_bar .top_bar_left p span:last-child {
+     padding-left: 3px;
+     color: var(--primary_color_orange_light);
+ }
+
+ #header .top_bar .top_bar_right span {
+     padding: 0 20px;
+ }
+
+ #header .top_bar .top_bar_right>a,
+ #header .top_bar .top_bar_right>span,
+ #header .top_bar .top_bar_right>select,
+ #header .top_bar .top_bar_right ul i {
+     color: var(--white_color);
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 28px;
+ }
+
+ #header .top_bar .top_bar_right>a:hover,
+ #header .top_bar .top_bar_right ul a:hover i {
+     color: var(--primary_color_orange_light);
+ }
+
+ #header .top_bar .top_bar_right select {
+     background: none;
+     border: transparent;
+ }
+
+ #header .navbar #main_navbar .navbar-nav a {
+     color: var(--text-color);
+     font-family: var(--primary_font);
+     font-size: 16px;
+     line-height: 26px;
+     font-weight: 400;
+     text-transform: uppercase;
+     padding: 37px 22.5px;
+     transition: 0.5s ease;
+     border: 1px solid transparent;
+ }
+
+ #header .top_bar .top_bar_right option {
+     background-color: var(--p_color);
+ }
+
+ #header .navbar #main_navbar .navbar-nav a:hover,
+ #header .navbar .ecommerce_cart i:hover {
+     color: var(--primary_color_orange_light);
+
+ }
+
+ #header .top_bar .top_bar_right ul.box_icon {
+     padding: 0;
+ }
+
+ #header .top_bar .top_bar_right ul.box_icon i {
+     width: 24px;
+     height: 24px;
+     font-size: 20px;
+     padding: 0 10px;
+ }
+
+ #header .navbar ul.ecommerce_cart li {
+     display: inline-flex;
+ }
+
+
+ #header .navbar ul.ecommerce_cart li a i {
+     position: relative;
+     color: var(--primary_color_dark);
+     width: 24px;
+     height: 24px;
+     font-size: 20px;
+     padding: 0px 10px;
+ }
+
+ #header .navbar ul.ecommerce_cart li a span {
+     text-align: center;
+     color: var(--white_color);
+     position: absolute;
+     top: 10%;
+     right: 0;
+     width: 12px;
+     height: 12px;
+     font-size: 10px;
+     line-height: 11.5px;
+     border-radius: 50%;
+     background-color: var(--primary_color_orange_light);
+     transform: translate(50%);
+
+ }
+
+ /* -- =================== End Header Section CSS Style Here =================== -- */
+
+
+
+ /* -- ====== Start Home Page Bannar Section CSS Style Here ======-- */
+ #home_page_bannar {
+     position: relative;
+ }
+
+
+ #home_page_bannar .bannar_sliding_box .bannar_sliding_item {
+     height: 1205px;
+     background-size: cover !important;
+     background-position: center !important;
+     background-repeat: no-repeat !important;
+ }
+
+ #home_page_bannar .bannar_sliding_item .section_content h1 {
+     padding: 14px 0 16px;
+ }
+
+ #home_page_bannar .bannar_sliding_item .section_content .sec_btn_lg {
+     padding: 13px 37px;
+     margin-top: 29px;
+ }
+
+ #home_page_bannar .bannar_sliding_item .section_content p {
+     color: var(--h1_color);
+ }
+
+
+ #home_page_bannar .arrow_box {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+
+ }
+
+ #home_page_bannar .arrow_box .arrow_items {
+     height: 100px;
+     background-color: transparent;
+     position: relative;
+     width: 100%;
+ }
+
+ #home_page_bannar .arrow_box i {
+     position: absolute;
+     top: 50%;
+     width: 40px;
+     height: 40px;
+     text-align: center;
+     font-size: 30px;
+     line-height: 40px;
+     border-radius: 50%;
+     background-color: var(--primary_color_orange_light);
+ }
+
+ #home_page_bannar .arrow_box .arrow_items .prev_arrow {
+     left: 0;
+     transform: translate(-100px, -50%);
+
+ }
+
+ #home_page_bannar .arrow_box .arrow_items .next_arrow {
+     right: 0;
+     transform: translate(100px, -50%);
+ }
+
+ #home_page_bannar .dot_box {
+     position: absolute;
+     left: 50%;
+     bottom: 30%;
+     height: 100px;
+     background-color: transparent;
+     transform: translate(-50%, 50%);
+ }
+
+ #home_page_bannar .dot_box .dot_items {
+     position: relative;
+     height: 100%;
+     padding: 0;
+ }
+
+ #home_page_bannar .dot_box .dot_items ul {
+     position: absolute;
+     top: 20px;
+     left: 0;
+     display: inline-flex;
+     align-items: center;
+     padding: 0;
+ }
+
+ #home_page_bannar .dot_box .dot_items ul.slick-dots li {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 10px;
+     height: 6px;
+     margin: 0 6px;
+     border-radius: 5px;
+     padding: 0;
+     background-color: var(--white_color);
+ }
+
+
+ #home_page_bannar .dot_box .dot_items ul.slick-dots li.slick-active {
+     width: 29px;
+ }
+
+ #home_page_bannar .dot_box .dot_items ul.slick-dots li button {
+     font-size: 0;
+     width: 0;
+     height: 100%;
+     border: none;
+     border-radius: 5px;
+
+ }
+
+ #home_page_bannar .dot_box .dot_items ul.slick-dots li.slick-active button {
+     width: 100%;
+     background-color: var(--primary_color_orange_light);
+ }
+
+
+ /* -- ====== End Home Page Bannar Section CSS Style Here ======-- */
+
+
+
+
+
+
+
+
+ /* -- =================== Start Footer Section CSS Style Here =================== -- */
+ #footer {
+     background-color: var(--text-color);
+ }
+
+ #footer .footer_top_part {
+     padding: 58px 0 70px;
+     border-bottom: 1px solid #e0e0e0;
+ }
+
+ #footer .footer_top_part ul.box_icon {
+     padding: 0;
+ }
+
+ #footer .footer_top_part ul.box_icon li {
+     margin: 0 5px;
+     background-color: none;
+ }
+
+ #footer .footer_top_part ul.box_icon i {
+     text-align: center;
+     padding: 8px;
+     line-height: 24px;
+     font-size: 20px;
+     color: var(--p_color);
+     display: inline-block;
+     width: 100%;
+     height: 100%;
+     background-color: var(--white_color);
+ }
+
+
+ #footer .footer_top_part ul.box_icon li a:hover i {
+     color: var(--white_color);
+     background-color: var(--primary_color_orange_light);
+ }
+
+ #footer .footer_bottom_part {
+     padding: 70px 0;
+ }
+
+ #footer .footer_bottom_part ul li p,
+ #footer .footer_bottom_part ul li i,
+ #footer .footer_bottom_part ul li a {
+     font-size: 16px;
+     font-weight: 400px;
+     line-height: 28px;
+     color: var(--white_color);
+     transition: 0.5s ease;
+ }
+
+ #footer .footer_bottom_part ul {
+     padding: 0;
+ }
+
+ #footer .footer_bottom_part ul li {
+     padding: 5px 0;
+ }
+
+ #footer .footer_bottom_part h4 {
+     padding-bottom: 22px;
+ }
+
+ #footer .footer_bottom_part ul li a:hover {
+     padding: 0 5px;
+     color: var(--primary_color_orange_light);
+ }
+
+ #footer .footer_bottom_part ul li a:hover i {
+     color: var(--primary_color_orange_light);
+ }
+
+ #footer .footer_bottom_part .footer_bottom_part_right li {
+     gap: 10px
+ }
+
+ #footer .footer_bottom_part .footer_bottom_part_right li i {
+     color: var(--primary_color_orange_light);
+     width: 24px;
+     height: 24px;
+     font-size: 25px;
+     line-height: 32px;
+ }
+
+ #footer .footer_bottom_part .footer_bottom_part_right .email_box {
+     margin: 23px 0;
+     background-color: var(--white_color);
+ }
+
+ #footer .footer_bottom_part .footer_bottom_part_right .email_box input,
+ #footer .footer_bottom_part .footer_bottom_part_right .email_box input:focus,
+ #footer .footer_bottom_part .footer_bottom_part_right .email_box button {
+     background: none;
+     border: 0;
+     outline: 0;
+
+ }
+
+ #footer .footer_bottom_part .footer_bottom_part_right .email_box input {
+     width: 100%;
+     padding: 10px 11px;
+ }
+
+ #footer .footer_bottom_part .footer_bottom_part_right .email_box button {
+     color: var(--white_color);
+     padding: 12px 17px;
+     font-size: 18px;
+     line-height: 30px;
+     font-weight: 700px;
+     background-color: var(--primary_color_orange_light);
+ }
+
+ #footer .footer_bottom_bar {
+     background-color: rgba(255, 255, 255, 0.1);
+ }
+
+ #footer .footer_bottom_bar p {
+     padding: 21px 0;
+     text-align: center;
+     color: var(--white_color);
+ }
+
+ #footer .footer_bottom_bar p span {
+     color: var(--primary_color_orange_light);
+     padding: 0 2px;
+     font-weight: 700;
+ }
+
+ /* -- =================== End Footer Section CSS Style Here =================== -- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* -- =================== Start All Extra Section Here =================== -- */
+
+ /* --======= Start Search PopUp Section Here ======= -- */
+ #home_page_search_popup {
+     position: fixed;
+     inset: 0;
+     background-color: rgba(0, 0, 0, 0.9);
+     display: none;
+     transition: 0.5s;
+ }
+
+ #home_page_search_popup.show {
+     display: block;
+ }
+
+ #home_page_search_popup .search_box {
+     padding: 0 20px;
+     background-color: none;
+     border: 1px solid var(--primary_color_orange_light);
+     border-radius: 50px;
+ }
+
+ #home_page_search_popup .search_box input {
+     font-size: 20px;
+     line-height: 28px;
+     width: 100%;
+     color: var(--white_color);
+     background: none;
+     border: none;
+     outline: none;
+ }
+
+ #home_page_search_popup .search_box input:focus {
+     border: none;
+     outline: none;
+     background: none;
+ }
+
+ #home_page_search_popup .search_box input::placeholder {
+     color: var(--white_color);
+ }
+
+ #home_page_search_popup .search_box button {
+     border: none;
+     background: none;
+ }
+
+ #home_page_search_popup .search_box button i {
+     color: var(--white_color);
+     text-align: center;
+     width: 50px;
+     height: 50px;
+     line-height: 50px;
+     font-size: 25px;
+     height: 100%;
+     padding: 10px;
+ }
+
+ #home_page_search_popup .btn_close {
+     position: absolute;
+     right: 5%;
+     top: 5%;
+     background: none;
+     border: none;
+ }
+
+ #home_page_search_popup .btn_close i {
+     color: var(--primary_color_orange_light);
+     text-align: center;
+     font-size: 24px;
+     width: 50px;
+     height: 50px;
+     line-height: 50px;
+     border: 1px solid var(--primary_color_orange_light);
+     border-radius: 50%;
+     background: none;
+     transform: rotate(0deg);
+     transition: 0.4s ease;
+ }
+
+ #home_page_search_popup .btn_close i:hover {
+     background-color: var(--white_color);
+     border-color: var(--white_color);
+     transform: rotate(120deg);
+ }
+
+ /* --======= End Search PopUp Section Here ======= -- */
+ /* -- =================== Start All Extra Section Here =================== -- */
